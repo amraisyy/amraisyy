@@ -1,0 +1,301 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.desktop {
+    position: relative;  
+    width: 1440px;
+    height: 1024px;
+}
+.background-image {
+    position: absolute;
+    width: 1443px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: url('gunung kembar.jpg') no-repeat center center/cover;
+}
+
+header {
+        position: absolute;
+        width: 1440px;
+        height: 135px;
+        left: 0px;
+        top: 4px;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid yellow;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid yellow;
+    }
+    
+    .home {
+        color: #9FC698;
+        position: absolute;
+        left: 626px;
+        top: 33px;
+    }
+    
+    .about {
+        color: #9FC698;
+        position: absolute;
+        left: 802px;
+        top: 34px;
+    }
+    .portfolio {
+        color:#9FC698;
+        position: absolute;
+        left: 976px;
+        top: 32px;
+    }
+    
+    .contact {
+        color:#9FC698;
+        position: absolute;
+        left: 1194px;
+        top: 32px;
+    }
+    
+
+    .profile-section {
+        position: absolute;
+        width: 442px;
+        height: 425px;
+        left: 600px;
+        top: 340px;
+    }
+    
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        background: url('') no-repeat center center/cover;
+    }
+    
+    .name {
+        height: 100px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 70px;
+        position: relative;
+        left: -25px;
+        color: #EEEDED;
+        margin: 0;
+    }
+    
+    .id {
+        height: 43px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 44px;
+        position: absolute;
+        left: 45px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+.scroll-down {
+    width: 155px;
+    height: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 53px;
+    bottom: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+/* Desktop - 2 */
+.desktop-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1005px;
+    left: 0px;
+    top: 1021px;
+    background: #17170E;
+}
+
+/* Frame 7 */
+
+.intro, .name-info, .ttl, .address {
+    position: absolute;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.intro {
+    width: 840px;
+    height: 171px;
+    left: -300px;
+    top: 27px;
+}
+
+.name-info {
+    width: 309px;
+    height: 55px;
+    left: -290px;
+    top: 225px;
+}
+
+.ttl {
+    width: 428px;
+    height: 48px;
+    left: -290px;
+    top: 307px;
+}
+
+.address {
+    width: 740px;
+    height: 62px;
+    left: -290px;
+    top: 396px;
+}
+
+/* Frame 8 */
+.frame8 {
+    position: absolute;
+    width: 347px;
+    height: 97px;
+    left: 450px;
+    top: 112px;
+}
+
+.about-me {
+    position: relative;
+    left: -400px;
+    top: -50px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 77px;
+    color: #E2DDDD;
+}
+
+.desktop-3 {
+    position: absolute;
+    width: 1440px;
+    height: 579px;
+    left: 0px;
+    top: 2026px;
+    background: #89AB78;
+}
+
+/* Frame 9 */
+.frame9 {
+    position: absolute;
+    width: 436px;
+    height: 170px;
+    left: 57px;
+    top: -10px;
+}
+
+.contact-me {
+    position: relative;
+    width: 545px;
+    height: 118px;
+    left: 500px;
+    top: -50px;
+    font-family: 'italic';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    color: #F9FDF8;
+}
+
+/* Frame 10 */
+.frame10 {
+    position: absolute;
+    width: 1370px;
+    height: 321px;
+    left: 44px;
+    top: 202px;
+}
+
+.wa1 {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: -50px;
+    top: -200px;
+    background: url('wa1-removebg-preview.png') no-repeat center center/cover;
+}
+
+.email {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -50px;
+    top: 200px;
+    background: url('email.png') no-repeat center center/cover;
+}
+
+.instagram {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left:-50px;
+    top: -15px;
+    background: url('instagram.png') no-repeat center center/cover;
+}
+
+.contact-number, .email-address, .instagram-handle {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.contact-number {
+    width: 305px;
+    height: 45px;
+    left: 450px;
+    top: -130px;
+}
+
+.email-address {
+    width: 407px;
+    height: 45px;
+    left: 450px;
+    top: 250px;
+}
+
+.instagram-handle {
+    width: 223px;
+    height: 45px;
+    left: 450px;
+    top: -0px;
+}
